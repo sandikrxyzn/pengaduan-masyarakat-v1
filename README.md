@@ -26,5 +26,5 @@ dengan nama directory yang dibuat atau folder "custom"
 
 # Tree
 <div align="center">
-<img src="Screenshot 2023-03-02 124317.png" align="center" style="width: 50%" />
+<img src="Screenshot 2023-03-02 124317.png" align="center" style="width: 100%" />
 </div> 
