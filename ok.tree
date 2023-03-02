@@ -1,0 +1,102 @@
+📦sandi
+ ┣ 📂admin
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📜error.php
+ ┃ ┃ ┣ 📜login.php
+ ┃ ┃ ┣ 📜logout.php
+ ┃ ┃ ┗ 📜registrasi.php
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┣ 📜header.php
+ ┃ ┃ ┣ 📜menu.php
+ ┃ ┃ ┗ 📜test.php
+ ┃ ┣ 📂views
+ ┃ ┃ ┣ 📜modal.verifikasi.php
+ ┃ ┃ ┣ 📜normal.php
+ ┃ ┃ ┣ 📜password.check.php
+ ┃ ┃ ┣ 📜table.akun.petugas.php
+ ┃ ┃ ┣ 📜table.masyarakat.php
+ ┃ ┃ ┣ 📜table.pengaduan.php
+ ┃ ┃ ┣ 📜tanggapan.php
+ ┃ ┃ ┗ 📜verifikasi.php
+ ┃ ┣ 📜hapus.php
+ ┃ ┣ 📜home.php
+ ┃ ┗ 📜ubah.php
+ ┣ 📂core
+ ┃ ┗ 📜db.php
+ ┣ 📂masyarakat
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂templates
+ ┃ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┃ ┗ 📜header.php
+ ┃ ┃ ┣ 📜error.php
+ ┃ ┃ ┣ 📜login.php
+ ┃ ┃ ┣ 📜logout.php
+ ┃ ┃ ┗ 📜registrasi.php
+ ┃ ┣ 📂pengaduan
+ ┃ ┃ ┣ 📂templates
+ ┃ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┃ ┗ 📜header.php
+ ┃ ┃ ┣ 📜pengaduan.php
+ ┃ ┃ ┣ 📜profile.nav.php
+ ┃ ┃ ┗ 📜profile.php
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┗ 📜header.php
+ ┃ ┗ 📜home.php
+ ┣ 📂petugas
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📜content.php
+ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┣ 📜header.php
+ ┃ ┃ ┣ 📜menu.php
+ ┃ ┃ ┗ 📜test.php
+ ┃ ┣ 📂views
+ ┃ ┃ ┣ 📜laporan.card.php
+ ┃ ┃ ┣ 📜normal.php
+ ┃ ┃ ┣ 📜password.check.php
+ ┃ ┃ ┣ 📜table.akun.petugas.php
+ ┃ ┃ ┣ 📜table.masyarakat.php
+ ┃ ┃ ┣ 📜table.pengaduan.php
+ ┃ ┃ ┣ 📜tanggapan.php
+ ┃ ┃ ┗ 📜verifikasi.php
+ ┃ ┗ 📜home.php
+ ┣ 📂sandi-versi-mvc
+ ┃ ┣ 📂app
+ ┃ ┃ ┣ 📂config
+ ┃ ┃ ┃ ┗ 📜config.php
+ ┃ ┃ ┣ 📂controllers
+ ┃ ┃ ┃ ┣ 📜About.php
+ ┃ ┃ ┃ ┣ 📜Admin.php
+ ┃ ┃ ┃ ┣ 📜Home.php
+ ┃ ┃ ┃ ┣ 📜Laporan.php
+ ┃ ┃ ┃ ┗ 📜Pengaduan.php
+ ┃ ┃ ┣ 📂core
+ ┃ ┃ ┃ ┣ 📜App.php
+ ┃ ┃ ┃ ┣ 📜Controller.php
+ ┃ ┃ ┃ ┗ 📜Database.php
+ ┃ ┃ ┣ 📂models
+ ┃ ┃ ┃ ┣ 📜Laporan_model.php
+ ┃ ┃ ┃ ┗ 📜User_model.php
+ ┃ ┃ ┣ 📂views
+ ┃ ┃ ┃ ┣ 📂about
+ ┃ ┃ ┃ ┃ ┣ 📜index.php
+ ┃ ┃ ┃ ┃ ┗ 📜page.php
+ ┃ ┃ ┃ ┣ 📂admin
+ ┃ ┃ ┃ ┃ ┣ 📜index.php
+ ┃ ┃ ┃ ┃ ┗ 📜laporan.php
+ ┃ ┃ ┃ ┣ 📂home
+ ┃ ┃ ┃ ┃ ┗ 📜index.php
+ ┃ ┃ ┃ ┣ 📂laporan
+ ┃ ┃ ┃ ┃ ┗ 📜index.php
+ ┃ ┃ ┃ ┣ 📂pengaduan
+ ┃ ┃ ┃ ┃ ┗ 📜index.php
+ ┃ ┃ ┃ ┗ 📂templates
+ ┃ ┃ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┃ ┃ ┗ 📜header.php
+ ┃ ┃ ┣ 📜.htaccess
+ ┃ ┃ ┗ 📜init.php
+ ┣ 📜.htaccess
+ ┣ 📜404.php
+ ┣ 📜index.php
+ ┗ 📜struktur.md
