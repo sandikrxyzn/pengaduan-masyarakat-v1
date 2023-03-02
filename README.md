@@ -17,7 +17,7 @@ password : us
 
 
 # Directory
-ubah nama directory pada index.php 
+ubah nama directory root pada index.php 
 dengan nama directory "custom"
 
 <div align="center">
